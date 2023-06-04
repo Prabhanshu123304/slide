@@ -1,0 +1,153 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: auto;
+}
+
+.carouselExampleCaptions{
+    padding-bottom: 20px;
+}
+
+.row .col img{
+    width: 100%;
+    background-size: cover;
+}
+
+.row .col{
+    width: 300px;
+    height: 200px;
+}
+
+.grid-container{
+    padding: 20px !important;
+}
+
+.gridWrapper img{
+    width: 100%;
+    background-size: cover;
+    height: 100%;
+}
+
+.gridWrapper{
+    width: 100%;
+}
+
+.main-cont{
+    display: flex;
+    height: 500px;
+    padding: 60px 50px 25px 50px;
+}
+
+.main-cont .first{
+    width: 33%;
+}
+
+.main-cont .second{
+    width: 33%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+.main-cont .third{
+    width: 33%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+
+.sec-first{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.sec-second{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sec-first div img, .sec-second div img{
+    background-size: cover;
+    height: 210px;
+    padding: 0 10px;
+} 
+
+.third img{
+    background-size: cover;
+    height: 210px;
+    padding: 0 10px;
+}
+
+.bot-first img, .bot-second img{
+    width: 100%;
+    background-size: cover;
+    height: 500px;
+}
+
+.bot-cont{
+    display: flex;
+    gap: 10px;
+    height: 500px;
+    padding: 0 50px 25px 50px;
+}
+.bot-cont .bot-first{
+    width: 30%;
+    height: 500px;
+}
+.bot-cont .bot-second{
+    width: 70%;
+    height: 500px;
+}
+
+
+.card-body img{
+    width: 100%;
+    background-size: cover;
+}
+
+.cardWrapper .row{
+    width: 100%;
+    justify-content: center;
+}
+
+
+@media screen and (max-width:1600px) {
+    .cardWrapper{
+        padding-top: 100px;
+    }
+
+    .gridWrapper{
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .cardWrapper{
+        padding-top: 70px;
+    }
+    .gridWrapper{
+        padding-top: 70px;
+    }
+}
+
+@media screen and (max-width:990px) {
+    .cardWrapper{
+        padding-top: 0px;
+    }
+    .gridWrapper{
+        padding-top: 0px;
+    }
+}
